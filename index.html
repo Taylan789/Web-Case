@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segmentify Study Case</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="question-container">
+        <h2 class="question" id="question-title">Loading...</h2>
+        <div class="answers" id="answers"></div>
+        <div class="navigation">
+            <button class="prev" id="prev" disabled>&lt; Back</button>
+            <button class="next" id="next" disabled>Next &gt;</button>
+        </div>
+    </div>
+    <div class="products-container" id="products-container" style="display: none;">
+        <h2>Products</h2>
+        <div class="products-wrapper">
+            <button class="slide-btn left" id="slide-left">&#10094;</button>
+            <div class="products" id="products"></div>
+            <button class="slide-btn right" id="slide-right">&#10095;</button>
+        </div>
+        <div class="navigation">
+            <button class="prev" id="product-prev">&lt; Back</button>
+            <button class="next" id="product-next">Next &gt;</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
